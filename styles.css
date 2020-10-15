@@ -12,6 +12,9 @@ h2{
     text-decoration: underline;
     /* text-align: center; */
 }
+i{
+    color:white;
+}
 .card{
     /* box-shadow: 4px 4px 4px 4px; */
     border-radius: 5px;
@@ -105,7 +108,7 @@ section{
 }
 
 nav{
-    background-color: #ff7043;
+    background-color: black;
     margin: 0;
     width: 100%;
     display: flex;
@@ -114,6 +117,7 @@ nav{
     align-content: center;
     justify-items: center;
     margin-bottom: 130px;
+    color: #fff;
 }
 h1{
     align-self: center;
