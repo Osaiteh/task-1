@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-decoration: 2px solid black;
+    text-decoration: underline;
+    text-align: center;
+}
+.card{
+    /* box-shadow: 4px 4px 4px 4px; */
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 70vw;
+    text-align: left;
+    align-self: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+input[type=text], input[type=number], select, input[type=password], input[type=date]{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 18px;
+    background-color:#ff7043;
+    color: white;
+    border: 0;
+    outline: unset;
+}
+.gender{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.gender input{
+    opacity: 0;
+}
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #ff7043;
+}
+.gender input:checked ~ .checkmark{
+    background-color: #ff7043;
+}
+.checkmark::after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+.gender input:checked ~ .checkmark:after{
+    display: block;
+}
+.gender .checkmark:after{
+    top: 4.87px;
+    left: 5px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+input:focus{
+    background-color: white;
+    color: #ff7043;
+}
+select{
+    width: 100%;
+}
+input[type=submit]{
+    background-color: white;
+    color: #ff7043;
+    padding: 12px 20px;
+    border: 1px solid #ff7043;
+    cursor: pointer;
+    float: right;
+}
+input[type=submit]:hover{
+    background-color: #ff7043;
+    color: white;
+}
+section{
+    background-color: rgb(247, 221, 221);
+}
+
+
+
+
+
+/* p, h4{
+    display: inline;
+    line-height: 3;
+    margin: 20px;
+}
+body{
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h4{
+    text-decoration: 2px solid black;
+    text-decoration: underline;
+}
+.card{
+    box-shadow: 4px 4px 4px 4px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 70vw;
+    align-self: center;
+    text-align: left;
+} */
