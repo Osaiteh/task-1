@@ -136,13 +136,6 @@ nav .a a{
     color: black;
     margin-right: 30px;
 }
-nav a:hover{
-    font-size: larger;
-}
-/* #sign-up{
-    margin-top: 10vh;
-    padding-top: 5vh
-} */
 /* p, h4{
     display: inline;
     line-height: 3;
